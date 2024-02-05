@@ -1,0 +1,114 @@
+/* Additional CSS rules for specific sections */
+
+/* Dashboard styling */
+.stocks {
+    margin-bottom: 20px;
+}
+
+.stocks table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stocks th, .stocks td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.buy-btn {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sell-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Market styling */
+.stock-graph {
+    margin-bottom: 20px;
+}
+
+/* Profile styling */
+form {
+    margin-top: 20px;
+}
+
+form label, form input, form input[type=submit] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type=text], form input[type=submit] {
+    padding: 5px;
+    width: 200px;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-container {
+    text-align: right;
+}
+
+.logo {
+    width: 100px;  /* Adjust the width as necessary */
+    height: 100px;  /* 'auto' will maintain the aspect ratio */
+}
+

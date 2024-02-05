@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Stock Market App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><img src="images/virtual-stock-market-logo.png" alt="Virtual Stock Market App Logo" class="logo"> Virtual Stock Market App</h1>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#market">Market</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Dashboard Section -->
+        <section id="dashboard">
+    <h2>Dashboard</h2>
+    <div class="stocks">
+        <table>
+            <tr>
+                <th>Stock</th>
+                <th>Quantity</th>
+                <th>Value</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>XYZ Corp</td>
+                <td>10</td>
+                <td>$5000</td>
+                <td>
+                    <button class="buy-btn" onclick="handleTransaction('XYZ', 'buy')">Buy</button>
+                    <button class="sell-btn" onclick="handleTransaction('XYZ', 'sell')">Sell</button>
+                </td>
+            </tr>
+            <tr>
+                <td>ABC Corp</td>
+                <td>10</td>
+                <td>$5000</td>
+                <td>
+                    <button class="buy-btn" onclick="handleTransaction('XYZ', 'buy')">Buy</button>
+                    <button class="sell-btn" onclick="handleTransaction('XYZ', 'sell')">Sell</button>
+                </td>
+            </tr>
+            <!-- Repeat for other stocks -->
+        </table>
+    </div>
+    <div class="net-worth">
+        <p>Net Worth: $10000</p>
+    </div>
+</section>
+
+        </section>
+
+        <!-- Market Section -->
+        <section id="market">
+    <h2>Market</h2>
+    <div class="stock-graph">
+        <!-- Graph for a particular stock (placeholder for actual graph implementation) -->
+        <img src="images/stock-graph-placeholder.png" alt="Stock Graph" height="200px" width="200px">
+    </div>
+    <div class="stock-news">
+        <p>Latest News: XYZ Corp announces a breakthrough in technology.</p>
+        <!-- Additional news items -->
+    </div>
+</section>
+
+
+        <!-- Learning Section -->
+        <section id="learning">
+    <h2>Learning</h2>
+    <div class="courses">
+        <ul>
+            <li>Basics of Stock Market</li>
+            <li>Advanced Trading Strategies</li>
+            <!-- Additional courses -->
+        </ul>
+    </div>
+</section>
+
+        <!-- Profile Section -->     
+<section id="profile">
+    <h2>Profile</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="John Doe"><br>
+        <label for="ssn">SSN:</label>
+        <input type="text" id="ssn" name="ssn" value="123-45-6789"><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" value="1234 Elm Street"><br>
+        <label for="contact">Contact Number:</label>
+        <input type="text" id="contact" name="contact" value="123-456-7890"><br>
+        <input type="submit" value="Update">
+    </form>
+</section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Virtual Stock Market App</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
