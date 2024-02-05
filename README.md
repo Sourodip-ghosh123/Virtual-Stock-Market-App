@@ -12,16 +12,16 @@ The project includes comprehensive documentation outlining the design, developme
 
 - `MRD_ Virtual Stock Market App.pdf`: The Market Requirements Document (MRD) outlines the market needs, target audience, and the intended functionalities of the app. It serves as a blueprint for what the app aims to achieve in the market.
 
-- `PRD_Virtual Stock Market App.pdf`: The Product Requirements Document (PRD) defines the product features, user stories, and the technical requirements for the app. This document guides the development process to ensure the final product meets the defined market needs.
+- `PRD_Virtual Stock Market App.pdf`: The Product Requirements Document (PRD) defines the product features, user stories, and technical requirements for the app. This document guides the development process to ensure the final product meets the defined market needs.
 
 - `Roadmap_ Virtual Stock Market App.pdf`: A strategic document that outlines the planned phases of the app's rollout, including milestones and timelines for feature releases and updates.
 
 ## Features
 
-- **Dashboard**: Users can view their stock portfolio, current balance, and perform buy/sell actions.
+- **Dashboard**: Users can view their stock portfolio, and current balance, and perform buy/sell actions.
 - **Market**: Displays the trends of various stocks along with news related to the stock market.
 - **Learning**: Contains courses and information for users to learn about the stock market.
-- **Profile**: Users can view and edit their personal details like SSN, Address, Name, and Contact Number.
+- **Profile**: Users can view and edit their details like SSN, Address, Name, and Contact Number.
 
 ## File Structure
 
@@ -32,7 +32,7 @@ The project includes comprehensive documentation outlining the design, developme
 
 ## Screenshots
 
-![Dashboard View](Dashboard.png)
+![Dashboard View](images/Dashboard.png)
 *Dashboard View of the Virtual Stock Market App*
 
 ## Getting Started
