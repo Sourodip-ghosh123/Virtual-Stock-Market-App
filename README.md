@@ -1,12 +1,12 @@
 # Virtual Stock Market App
 
-The Virtual Stock Market App is a web application designed to simulate a stock trading environment where users can buy and sell virtual stocks, view market trends, learn about stock trading, and manage their profile.
+The Virtual Stock Market App is a web application designed to simulate a stock trading environment where users can buy and sell virtual stocks, view market trends, learn about stock trading, and manage their profiles.
 
 ## Documentation
 
 The project includes comprehensive documentation outlining the design, development plan, and competitive analysis:
 
-- `Code Documentation.pdf`: Detailed information about the codebase, including descriptions of the HTML, CSS, and JavaScript files. It outlines the structures, styles, and scripts that make up the front-end of the app.
+- `Code Documentation.pdf`: Detailed information about the codebase, including descriptions of the HTML, CSS, and JavaScript files. It outlines the structures, styles, and scripts that make up the front end of the app.
 
 - `Competitive Analysis_ Virtual Stock Market App.pdf`: An analysis of competing products in the virtual stock market space. It details the strengths and weaknesses of similar apps and identifies potential areas for our app to differentiate and excel.
 
@@ -40,7 +40,7 @@ The project includes comprehensive documentation outlining the design, developme
 To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
-git clone https://github.com/your-username/virtual-stock-market-app.git
+git clone https://github.com/Sourodip-ghosh123/virtual-stock-market-app.git
 2. Navigate to the project directory
 3. Open `index.html` in your browser to view the app.
 
